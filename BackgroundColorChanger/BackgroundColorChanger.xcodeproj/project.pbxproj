@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EE048611CA00205006EA250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE048601CA00205006EA250 /* AppDelegate.swift */; };
+		0EE048631CA00205006EA250 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE048621CA00205006EA250 /* ViewController.swift */; };
+		0EE048661CA00205006EA250 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE048641CA00205006EA250 /* Main.storyboard */; };
+		0EE048681CA00205006EA250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EE048671CA00205006EA250 /* Assets.xcassets */; };
+		0EE0486B1CA00205006EA250 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE048691CA00205006EA250 /* LaunchScreen.storyboard */; };
+		0EE048761CA00205006EA250 /* BackgroundColorChangerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE048751CA00205006EA250 /* BackgroundColorChangerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0EE048721CA00205006EA250 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0EE048551CA00205006EA250 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0EE0485C1CA00205006EA250;
+			remoteInfo = BackgroundColorChanger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE0485D1CA00205006EA250 /* BackgroundColorChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BackgroundColorChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE048601CA00205006EA250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0EE048621CA00205006EA250 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0EE048651CA00205006EA250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0EE048671CA00205006EA250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EE0486A1CA00205006EA250 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0EE0486C1CA00205006EA250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0EE048711CA00205006EA250 /* BackgroundColorChangerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BackgroundColorChangerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE048751CA00205006EA250 /* BackgroundColorChangerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundColorChangerTests.swift; sourceTree = "<group>"; };
+		0EE048771CA00205006EA250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0EE0485A1CA00205006EA250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE0486E1CA00205006EA250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EE048541CA00205006EA250 = {
+			isa = PBXGroup;
+			children = (
+				0EE0485F1CA00205006EA250 /* BackgroundColorChanger */,
+				0EE048741CA00205006EA250 /* BackgroundColorChangerTests */,
+				0EE0485E1CA00205006EA250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0EE0485E1CA00205006EA250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0EE0485D1CA00205006EA250 /* BackgroundColorChanger.app */,
+				0EE048711CA00205006EA250 /* BackgroundColorChangerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0EE0485F1CA00205006EA250 /* BackgroundColorChanger */ = {
+			isa = PBXGroup;
+			children = (
+				0EE048601CA00205006EA250 /* AppDelegate.swift */,
+				0EE048621CA00205006EA250 /* ViewController.swift */,
+				0EE048641CA00205006EA250 /* Main.storyboard */,
+				0EE048671CA00205006EA250 /* Assets.xcassets */,
+				0EE048691CA00205006EA250 /* LaunchScreen.storyboard */,
+				0EE0486C1CA00205006EA250 /* Info.plist */,
+			);
+			path = BackgroundColorChanger;
+			sourceTree = "<group>";
+		};
+		0EE048741CA00205006EA250 /* BackgroundColorChangerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0EE048751CA00205006EA250 /* BackgroundColorChangerTests.swift */,
+				0EE048771CA00205006EA250 /* Info.plist */,
+			);
+			path = BackgroundColorChangerTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0EE0485C1CA00205006EA250 /* BackgroundColorChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE0487A1CA00205006EA250 /* Build configuration list for PBXNativeTarget "BackgroundColorChanger" */;
+			buildPhases = (
+				0EE048591CA00205006EA250 /* Sources */,
+				0EE0485A1CA00205006EA250 /* Frameworks */,
+				0EE0485B1CA00205006EA250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BackgroundColorChanger;
+			productName = BackgroundColorChanger;
+			productReference = 0EE0485D1CA00205006EA250 /* BackgroundColorChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0EE048701CA00205006EA250 /* BackgroundColorChangerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EE0487D1CA00205006EA250 /* Build configuration list for PBXNativeTarget "BackgroundColorChangerTests" */;
+			buildPhases = (
+				0EE0486D1CA00205006EA250 /* Sources */,
+				0EE0486E1CA00205006EA250 /* Frameworks */,
+				0EE0486F1CA00205006EA250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0EE048731CA00205006EA250 /* PBXTargetDependency */,
+			);
+			name = BackgroundColorChangerTests;
+			productName = BackgroundColorChangerTests;
+			productReference = 0EE048711CA00205006EA250 /* BackgroundColorChangerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0EE048551CA00205006EA250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "techno krishna";
+				TargetAttributes = {
+					0EE0485C1CA00205006EA250 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0EE048701CA00205006EA250 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0EE0485C1CA00205006EA250;
+					};
+				};
+			};
+			buildConfigurationList = 0EE048581CA00205006EA250 /* Build configuration list for PBXProject "BackgroundColorChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0EE048541CA00205006EA250;
+			productRefGroup = 0EE0485E1CA00205006EA250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0EE0485C1CA00205006EA250 /* BackgroundColorChanger */,
+				0EE048701CA00205006EA250 /* BackgroundColorChangerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EE0485B1CA00205006EA250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE0486B1CA00205006EA250 /* LaunchScreen.storyboard in Resources */,
+				0EE048681CA00205006EA250 /* Assets.xcassets in Resources */,
+				0EE048661CA00205006EA250 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE0486F1CA00205006EA250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EE048591CA00205006EA250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE048631CA00205006EA250 /* ViewController.swift in Sources */,
+				0EE048611CA00205006EA250 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0EE0486D1CA00205006EA250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE048761CA00205006EA250 /* BackgroundColorChangerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0EE048731CA00205006EA250 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0EE0485C1CA00205006EA250 /* BackgroundColorChanger */;
+			targetProxy = 0EE048721CA00205006EA250 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0EE048641CA00205006EA250 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE048651CA00205006EA250 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0EE048691CA00205006EA250 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0EE0486A1CA00205006EA250 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0EE048781CA00205006EA250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0EE048791CA00205006EA250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0EE0487B1CA00205006EA250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroundColorChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoidentity.BackgroundColorChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0EE0487C1CA00205006EA250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BackgroundColorChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoidentity.BackgroundColorChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0EE0487E1CA00205006EA250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BackgroundColorChangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoidentity.BackgroundColorChangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundColorChanger.app/BackgroundColorChanger";
+			};
+			name = Debug;
+		};
+		0EE0487F1CA00205006EA250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BackgroundColorChangerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.technoidentity.BackgroundColorChangerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BackgroundColorChanger.app/BackgroundColorChanger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EE048581CA00205006EA250 /* Build configuration list for PBXProject "BackgroundColorChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE048781CA00205006EA250 /* Debug */,
+				0EE048791CA00205006EA250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EE0487A1CA00205006EA250 /* Build configuration list for PBXNativeTarget "BackgroundColorChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE0487B1CA00205006EA250 /* Debug */,
+				0EE0487C1CA00205006EA250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0EE0487D1CA00205006EA250 /* Build configuration list for PBXNativeTarget "BackgroundColorChangerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EE0487E1CA00205006EA250 /* Debug */,
+				0EE0487F1CA00205006EA250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0EE048551CA00205006EA250 /* Project object */;
+}
