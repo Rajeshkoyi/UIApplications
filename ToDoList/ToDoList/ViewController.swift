@@ -8,16 +8,16 @@
 
 import UIKit
 
+var ToDoTitle = [String]()
 var ToDoList = [String]()
 class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 {
     
     @IBOutlet weak var tableView: UITableView!
-    
+       
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.reloadData()
-        print(ToDoList)
     }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -25,9 +25,9 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCellWithIdentifier("CellData", forIndexPath: indexPath)
-        
-        cell.textLabel?.text = ToDoList[indexPath.row]
+        let cell = tableView.dequeueReusableCellWithIdentifier("CellData", forIndexPath: indexPath) as! CustomTableViewCell
+            cell.titleLabel.text = ToDoTitle[indexPath.row]
+            cell.textView.text = ToDoList[indexPath.row]
         
         return cell
     }
@@ -35,10 +35,14 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         
         if editingStyle == UITableViewCellEditingStyle.Delete
         {
+            ToDoTitle.removeAtIndex(indexPath.row)
             ToDoList.removeAtIndex(indexPath.row)
             
-            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Automatic)
+            tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Bottom)
         }
+    }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
 

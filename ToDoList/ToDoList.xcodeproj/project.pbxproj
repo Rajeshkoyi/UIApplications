@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0E1A98571CAA4DC30017EC42 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1A98561CAA4DC30017EC42 /* AddViewController.swift */; };
+		0ECE1B5D1CABAF6B00E27F9A /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ECE1B5C1CABAF6B00E27F9A /* CustomTableViewCell.swift */; };
 		0EE9F3431CA9169200DE347D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9F3421CA9169200DE347D /* AppDelegate.swift */; };
 		0EE9F3451CA9169200DE347D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EE9F3441CA9169200DE347D /* ViewController.swift */; };
 		0EE9F3481CA9169200DE347D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE9F3461CA9169200DE347D /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0E1A98561CAA4DC30017EC42 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		0ECE1B5C1CABAF6B00E27F9A /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		0EE9F33F1CA9169200DE347D /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE9F3421CA9169200DE347D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0EE9F3441CA9169200DE347D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				0EE9F34B1CA9169200DE347D /* LaunchScreen.storyboard */,
 				0EE9F34E1CA9169200DE347D /* Info.plist */,
 				0E1A98561CAA4DC30017EC42 /* AddViewController.swift */,
+				0ECE1B5C1CABAF6B00E27F9A /* CustomTableViewCell.swift */,
 			);
 			path = ToDoList;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			files = (
 				0EE9F3451CA9169200DE347D /* ViewController.swift in Sources */,
 				0E1A98571CAA4DC30017EC42 /* AddViewController.swift in Sources */,
+				0ECE1B5D1CABAF6B00E27F9A /* CustomTableViewCell.swift in Sources */,
 				0EE9F3431CA9169200DE347D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
