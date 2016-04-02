@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FoodTracker" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="c5U-Vo-0ZO"/>
+                        <viewControllerLayoutGuide type="bottom" id="oal-Nw-1sl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="dv9-8n-xxY">
+                                <rect key="frame" x="16" y="44" width="343" height="348"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dqe-b7-KXf">
+                                        <rect key="frame" x="0.0" y="0.0" width="103" height="38"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="103" id="LGz-bX-eCa"/>
+                                            <constraint firstAttribute="height" constant="38" id="bJK-n2-eBL"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="fill" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter meal name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d8v-4c-LVR">
+                                        <rect key="frame" x="0.0" y="38" width="343" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="BXC-6Z-mEH"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hIo-1o-lYp">
+                                        <rect key="frame" x="0.0" y="68" width="151" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="151" id="2Sd-V4-3da"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="7XO-JL-WuY"/>
+                                            <constraint firstAttribute="height" constant="30" id="baO-t9-i9P"/>
+                                        </constraints>
+                                        <state key="normal" title="Set Default Label Text"/>
+                                        <connections>
+                                            <action selector="setDefaultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eYN-6X-5SC"/>
+                                        </connections>
+                                    </button>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="320" placeholderIntrinsicHeight="320" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="uMo-5b-sgK">
+                                        <rect key="frame" x="0.0" y="98" width="320" height="250"/>
+                                        <gestureRecognizers/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="uMo-5b-sgK" secondAttribute="height" multiplier="32:25" id="6lq-OK-q2J"/>
+                                        </constraints>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="y1n-XS-kTA" appends="YES" id="adc-TS-Bae"/>
+                                        </connections>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="d8v-4c-LVR" firstAttribute="leading" secondItem="dv9-8n-xxY" secondAttribute="leading" id="DJr-PG-BDZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="d8v-4c-LVR" secondAttribute="trailing" id="u01-hs-oxA"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oal-Nw-1sl" firstAttribute="top" secondItem="dv9-8n-xxY" secondAttribute="bottom" constant="275" id="2lk-Q6-ySE"/>
+                            <constraint firstItem="dv9-8n-xxY" firstAttribute="top" secondItem="c5U-Vo-0ZO" secondAttribute="bottom" constant="24" id="Agb-Z6-1vS"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dv9-8n-xxY" secondAttribute="trailing" id="Wwm-ur-mrq"/>
+                            <constraint firstItem="dv9-8n-xxY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="nD5-Kx-bfK"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="nameLabel" destination="dqe-b7-KXf" id="oW3-n0-Qut"/>
+                        <outlet property="nameTextField" destination="d8v-4c-LVR" id="BJC-oL-QtW"/>
+                        <outlet property="photoImageView" destination="uMo-5b-sgK" id="EeH-46-TFr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="y1n-XS-kTA">
+                    <connections>
+                        <action selector="photosFromImageliabrary:" destination="BYZ-38-t0r" id="2eX-QS-koZ"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-94.5" y="425.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="defaultPhoto" width="1080" height="1080"/>
+    </resources>
+</document>
